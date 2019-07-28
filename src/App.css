@@ -1,33 +1,76 @@
 .App {
-  text-align: center;
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
+    font-size: 1.125rem;
+}
+
+.App a {
+    color: #000;
+}
+
+.App a:hover {
+    color: indianred;
+    text-decoration: none;
 }
 
 .App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+    /*height: 20vmin;*/
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+    /*background-color: #1101;*/
+    min-height: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.card {
+    border-color: #f7f7f7 !important;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Tour-card {
+    background-color: lightgray;
+    display: flex;
+    flex: 1 1 auto;
+    text-align: right !important
+}
+
+.Rate-checked {
+    color: #f5a623;
+}
+
+#offer {
+    display: flex;
+}
+
+#mealPlan {
+    flex: 0 0 65%;
+}
+
+#days {
+    flex: 1;
+}
+
+.img-square-wrapper {
+    height: 200px;
+    line-height: 200px;
+}
+
+.img-square-wrapper img {
+    vertical-align: middle;
+}
+
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+#backBtn{
+
 }
